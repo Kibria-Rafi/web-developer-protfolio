@@ -13,6 +13,7 @@ body{
     font-weight: 700;
     padding: 15px 35px;
     border-radius: 5px;
+    /* text-align: center; */
 }
 .section-title{
     color:#181818;
@@ -166,5 +167,18 @@ main section{
 }
 .resume-container{
     display: flex;
-    
+    gap: 50px;
+}
+.resume-item-institute , .resume-item-description{
+    color: #757575;
+}
+.reume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
